@@ -2,6 +2,7 @@ import sys
 
 numbers = []
 CNT, W = map(int, sys.stdin.readline().split())
+
 for line in sys.stdin:
     things = line.strip().split()
     things = [int(thing) for thing in things]
